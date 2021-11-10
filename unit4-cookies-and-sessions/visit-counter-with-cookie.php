@@ -4,7 +4,7 @@
 <?php
 phpinfo();
     if (isset($_COOKIE["visits"])) {
-    setcookie("visits", ++$_COOKIE["visits"]);
+        setcookie("visits", ++$_COOKIE["visits"]);
         echo "Vista número " . $_COOKIE["visits"];
     } else {
         echo "Eres la primera visita :)";
